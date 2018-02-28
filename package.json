@@ -1,0 +1,7 @@
+{
+  "name": "DH",
+  "version": "0.0.1",
+  "dependencies": {
+    "big-integer": "^1.6.26"
+  }
+}
