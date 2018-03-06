@@ -2,7 +2,7 @@ const request = require('request');
 const bigInt = require ('big-integer');
 const crypto = require ('crypto');
 
-var text = "Mensaje de prueba";
+var text = "Hola Patri.";
 
 request({
         uri: 'http://localhost:4200/key',

@@ -24,7 +24,7 @@ while(!p.isPrime())
 var a = bigInt.randBetween(bigInt(2),p.minus(1));
 
 //creamos ga mod p
-var keyA = g.modPow(b,p);
+var keyA = g.modPow(a,p);
 
 
 
@@ -69,7 +69,7 @@ app.post('/message', function(req, res){
     mDecrypted = decipher.update(mEncrypted, 'hex', 'utf8');
     mDecrypted += decipher.final('utf8');
 
-    console.log("El mensaje del cliente desencriptado es: ", mDecrypted)
+    console.log("El mensaje del cliente desencriptado es: ", mDecrypted);
 
     res.status(200).send("ok")
 
